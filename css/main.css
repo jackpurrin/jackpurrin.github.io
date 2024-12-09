@@ -1,3 +1,40 @@
+/* Makes the page look way better. Better than your local craigslist! TL/DR UI/UX and learn to read more. */
+
+ body, html {
+	/* Handles coloring of the page */
+	background-color: #222;
+	color: white;
+	/* Adds fonts to the page */
+	font-family: "Cutive Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+	/* Limits the width of the page. */
+	width: 85%;
+	/* Enables smooth scrolling for the whole page...? */
+	scroll-behavior: smooth;
+}
+
+/* This handles the centering of the page after making it 80% width */
+
+html {
+	display: table;
+    margin: auto;
+	scroll-padding-top: 60px; 
+}
+
+body {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+/* Formats links to look better */
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #999;
+}
+
 /* Thanks W3Schools! https://www.w3schools.com/css/css_navbar_horizontal.asp */
 
 .nav {
@@ -5,7 +42,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #666;
   top: 0;
   width: 100%;
   position: -webkit-sticky; /* Safari */
@@ -25,10 +62,12 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #333;
 }
 
 .active {
   background-color: #04AA6D;
   float:right;
 }
+
+
