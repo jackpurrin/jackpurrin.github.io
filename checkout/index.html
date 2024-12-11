@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Goat Rentals</title>
+		<link rel="stylesheet" href="/css/main.css">
+		<script  src="/js/main.js"></script>
+	</head>
+	
+	<body>
+	
+		<!-- Nav bar -->
+		
+		<ul class="nav">
+			<li class="nli"><a href="/">Home</a></li>
+			<li class="nli"><a href="/#about">About</a></li>
+			<li class="nli"><a href="/#contact">Contact</a></li>
+			<li class="nli"><a href="/#location">Location</a></li>
+			<li class="nli"><a href="/#pricing">Pricing</a></li>	
+		</ul>
+		
+		<!-- Header -->
+		
+		<header>
+			<h1 id="tp">Goat Rentals</h1>
+		</header>
+		
+		<br>
+		<br>
+		<br>
+		
+		<!-- Main Content -->
+		
+		<section>
+			<h2>Checkout</h2>
+			
+			<h3>Billing Address</h3>
+			<label for="name">Full name: </label>
+			<input type="text" placeholder="Please enter your full name" required>
+			<br>
+			<br>
+			<label for="email">Enter your email: </label>
+			<input type="text" placeholder="Enter your email address" required>
+			<br>
+			<br>
+			<label for="address">Enter your address: </label>
+			<input type="text" placeholder="Enter address" required>
+			<br>
+			<br>
+			<label for="city">City: <label>
+			<input type="text" placeholder="Enter city" required>
+			<br>
+			<br>
+			<label for="state">State: <label>
+			<input type="text" placeholder="Enter state" required>
+			<br>
+			<br>
+			<label for="zip">Zip code: <label>
+			<input type="number" placeholder="123 456" min="000001" max="999999" required>
+			
+			<h3>Payment</h3>
+			<label for="nameOnCard">Name on card: <label>
+			<input type="text" placeholder="Enter name" required>
+			<br>
+			<br>
+			<label for="cardNum">Credit Card Number: <label>
+			<input type="number" placeholder="1111-2222-3333-4444" maxlength="19" required>
+			<br>
+			<br>
+			<label for="">Exp Month:</label>
+			<select name="" id="">
+				<option value="">Choose month</option>
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="August">August</option>
+				<option value="September">September</option>
+				<option value="October">October</option>
+				<option value="November">November</option>
+				<option value="December">December</option>
+            </select>
+			<br>
+			<br>
+			<label for="">Exp Year:</label>
+			<select name="" id="">
+				<option value="">Choose Year</option>
+				<option value="2023">2025</option>
+				<option value="2024">2026</option>
+				<option value="2025">2027</option>
+				<option value="2026">2028</option>
+				<option value="2027">2029</option>
+			</select>
+			<br>
+			<br>
+			<label for="cvv">CVV: <label>
+			<input type="number" placeholder="1234" min="0001" max="9999" required>
+			<br>
+			<br>
+			<input type="submit" value="Proceed to Checkout" class="submit_btn">
+		</section>
+		
+		<section>
+			<h2>Pricing</h2>
+			<h3>One goat</h3>
+			<h4>20$ /h</h4>
+			<h3>Two goats</h3>
+			<h4>35$ /h</h4>
+			<h3>Five goats</h3>
+			<h4>80$ /h</h4>
+			<h3>More than Five</h3>
+			<h4>Contact us!</h4>
+		</section>
+	</body>
+</html>
